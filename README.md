@@ -1,9 +1,16 @@
 # free-qr-code
 easily create qr codes to your documents etc.
 
+python3 -m venv venv
+source venv/bin/activate
 pip install qrcode[pil]
 
-# import qrcode
+or 
+
+pip install "qrcode[pil]" --break-system-packages
+
+
+import qrcode
 
 # Dicionário com os currículos
 curriculums = {
